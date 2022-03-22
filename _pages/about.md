@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: 
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -21,16 +21,16 @@ I am a Ph.D. candidate in the Software Engineering at [School of Software Engine
 
 **Conference**
 1. **<span style="color:#0b5394">[ICSE'22]</span> An Exploratory Study of Deep Learning Supply Chain.  <span style="color:#0b5394">(CCF A)</span>**   
-    Xin Tan, **Kai Gao**, Minghui Zhou, Li Zhang  [[PDF]()]  [[Code](https://github.com/SunflowerPKU/ICSE22_SC_Data)]  [[Webpage](https://github.com/KyleGau/SupplyChainPrototype)]   
+    Xin Tan, **Kai Gao**, Minghui Zhou, Li Zhang  [[PDF](https://gaokai320.github.io/files/2022-dlsc.pdf)] [[Code](https://github.com/SunflowerPKU/ICSE22_SC_Data)] [[Webpage](https://github.com/KyleGau/SupplyChainPrototype)]   
     In: The 44th International Conference on Software Engineering, May 21-29, 2022, pages to appear, Pittsburgh, PA, USA 
 
 2. **<span style="color:#0b5394">[ICPC'22]</span> Demystifying Software Release Note Issues on GitHub.  <span style="color:#0b5394">(CCF B)</span>**   
-  Jianyu Wu, Hao He, Wenxin Xiao, **Kai Gao**, and Minghui Zhou  [[PDF]()]  [[Code]()]   
+  Jianyu Wu, Hao He, Wenxin Xiao, **Kai Gao**, and Minghui Zhou  [[PDF](https://gaokai320.github.io/files/2022-release-notes.pdf)] [[Code](https://figshare.com/s/fc1c5be3ab2313158195)]   
   In: The 30th International Conference on Program Comprehension, May 16-17, 2022, pages to appear, Pittsburgh, PA, USA 
 
 **Journal**
 1. **<span style="color:#0b5394">[TSE'22]</span> On the Variability of Software Engineering Needs for Deep Learning: Stages, Trends, and Application Types.  <span style="color:#0b5394">(CCF A)</span>**   
-  **Kai Gao**, Zhixing Wang, Audris Mockus,and Minghui Zhou  [[Code](https://github.com/KyleGau/SE4DL)]   
+  **Kai Gao**, Zhixing Wang, Audris Mockus,and Minghui Zhou  [[PDF](https://gaokai320.github.io/files/2022-se4dl-needs.pdf)] [[Code](https://github.com/KyleGau/SE4DL)]   
   In: Transactions of Software Engineering, to Appear, 2022.
 
 
