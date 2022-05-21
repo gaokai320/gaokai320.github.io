@@ -27,6 +27,7 @@ I am a Ph.D. candidate in the Software Engineering at [School of Software Engine
 2. **<span style="color:#0b5394">[ICPC'22]</span> Demystifying Software Release Note Issues on GitHub.  <span style="color:#0b5394">(CCF B)</span>**   
   Jianyu Wu, Hao He, Wenxin Xiao, **Kai Gao**, and Minghui Zhou  [[PDF](https://gaokai320.github.io/files/2022-release-notes.pdf)] [[Code](https://figshare.com/s/fc1c5be3ab2313158195)]   
   In: The 30th International Conference on Program Comprehension, May 16-17, 2022, pages to appear, Pittsburgh, PA, USA 
+  <b style="color:red;">🏆ACM SIGSOFT Distinguished Paper Award</b>
 
 **Journal**
 1. **<span style="color:#0b5394">[TSE'22]</span> On the Variability of Software Engineering Needs for Deep Learning: Stages, Trends, and Application Types.  <span style="color:#0b5394">(CCF A)</span>**   
