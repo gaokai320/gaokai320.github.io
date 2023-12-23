@@ -115,7 +115,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: ../uploads/resume_en.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -124,6 +124,8 @@ highlight_name: true
 I am a final-year Ph.D. candidate in Software Engineering at [Peking University](https://www.pku.edu.cn/), advised by [Minghui Zhou](https://minghuizhou.github.io/) and [Bing Xie](https://cs.pku.edu.cn/info/1084/1712.htm) at [Open Source Software Data Analytics Lab](https://osslab-pku.github.io/). Before that, I received my Bachelor's Degree in Computer Science and Economics from Peking University in 2019.
 
 My research interests lie in software engineering in general, and open source software supply chain, mining software repositories, and empirical software engineering in particular.
+
+<i class="fa fa-download" aria-hidden="true"></i> Here is my [CV (English Version)](/uploads/resume_en.pdf) and [CV (Chinese Version)](/uploads/resume_zh.pdf)
 
 ### **News**
 - December 18, 2023. Our paper "Characterizing Deep Learning Package Supply Chains in PyPI: Domains, Clusters, and Disengagement" is accepted by TOSEM.
