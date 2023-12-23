@@ -200,19 +200,22 @@ sections:
   #   design:
   #     columns: '2'
   #     view: card
-  # - block: collection
-  #   id: publications
-  #   content:
-  #     title: Recent Publications
+  - block: collection
+    id: publications
+    content:
+      title: Recent Publications
 
-  #     filters:
-  #       folders:
-  #         - publications
-  #       exclude_featured: true
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
 
-  #   design:
-  #     columns: '2'
-  #     view: citation
+    text: |-
+      [SEE ALL PUBLICATIONS](./publication/).
+
+    design:
+      columns: '2'
+      view: citation
   # - block: collection
   #   id: talks
   #   content:
@@ -268,7 +271,7 @@ sections:
       #     name: Zoom Me
       #     link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      # autolink: true
+      autolink: true
       # Email form provider
       # form:
       #   provider: netlify
@@ -277,6 +280,6 @@ sections:
       #   netlify:
       #     # Enable CAPTCHA challenge to reduce spam?
       #     captcha: false
-    # design:
-    #   columns: '2'
+    design:
+      columns: '2'
 ---
