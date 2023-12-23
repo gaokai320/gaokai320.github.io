@@ -121,7 +121,7 @@ social:
 highlight_name: true
 ---
 
-I am a final-year Ph.D. candidate in the Software Engineering at [Peking University](https://www.pku.edu.cn/), advised by [Minghui Zhou](https://minghuizhou.github.io/) and [Bing Xie](https://cs.pku.edu.cn/info/1084/1712.htm) at [Open Source Software Data Analytics Lab](https://osslab-pku.github.io/). Before that, I received my Bachelor's Degree in Computer Science and Economics from Peking University in 2019.
+I am a final-year Ph.D. candidate in Software Engineering at [Peking University](https://www.pku.edu.cn/), advised by [Minghui Zhou](https://minghuizhou.github.io/) and [Bing Xie](https://cs.pku.edu.cn/info/1084/1712.htm) at [Open Source Software Data Analytics Lab](https://osslab-pku.github.io/). Before that, I received my Bachelor's Degree in Computer Science and Economics from Peking University in 2019.
 
 My research interests lie in software engineering in general, and open source software supply chain, mining software repositories, and empirical software engineering in particular.
 
@@ -138,5 +138,5 @@ My research interests lie in software engineering in general, and open source so
 ### **Contact**
 
 - Email: gaokai19 AT pku DOT edu DOT cn
-- Address: Room 1537, No.1 Building of Science, No.5 Yiheyuan Road, Haidian District, Beijing China (100871).
+- Address: No.1 Science Building Room 1537, No.5 Yiheyuan Road, Haidian District, Beijing (100871).
 {style="text-align: justify;"}
