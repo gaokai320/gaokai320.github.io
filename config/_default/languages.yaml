@@ -22,7 +22,13 @@ zh:
        weight: 10
      - name: 论文
        url: 'publication'
+       weight: 20
+     - name: 学术服务
+       url: 'service'
+       weight: 30
+     - name: 荣誉奖励
+       url: 'award'
+       weight: 40
+     - name: 其他
+       url: 'miscellaneous'
        weight: 50
-     - name: 联系
-       url: '#contact'
-       weight: 60

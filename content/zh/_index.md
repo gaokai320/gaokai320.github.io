@@ -39,7 +39,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: 简介
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   # - block: skills
@@ -200,22 +200,22 @@ sections:
   #   design:
   #     columns: '2'
   #     view: card
-  - block: collection
-    id: publications
-    content:
-      title: Recent Publications
+  # - block: collection
+  #   id: publications
+  #   content:
+  #     title: Recent Publications
 
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
 
-    text: |-
-      [SEE ALL PUBLICATIONS](./publication/).
+  #   text: |-
+  #     [SEE ALL PUBLICATIONS](./publication/).
 
-    design:
-      columns: '2'
-      view: citation
+  #   design:
+  #     columns: '2'
+  #     view: citation
   # - block: collection
   #   id: talks
   #   content:

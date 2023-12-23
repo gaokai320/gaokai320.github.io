@@ -38,13 +38,13 @@ bio: ""
 # education:
 #   courses:
 #     - course: PhD in Software Engineering
-#       institution: Peking University
+#       institution: 北京大学
 #       year: Now
 #     - course: BSc in Economics (Dual Major)
-#       institution: Peking University
+#       institution: 北京大学
 #       year: 07/2019
 #     - course: BSc in Computer Science (Major)
-#       institution: Peking University
+#       institution: 北京大学
 #       year: 07/2019
 
 # Skills
@@ -121,13 +121,23 @@ social:
 highlight_name: true
 ---
 
-I am a Ph.D. candidate in the Software Engineering at [School of Software Engineering and Microelectronics](https://ss.pku.edu.cn/) [Peking University](https://www.pku.edu.cn/), advised by [Minghui Zhou](https://minghuizhou.github.io/) and [Bing Xie](https://cs.pku.edu.cn/info/1084/1712.htm) at [Open Source Software Data Analytics Lab](https://osslab-pku.github.io/). Before that, I received my Bachelor’s Degree in Computer Science and Economy at Peking University in 2019. My research interests mainly focus on mining software repository and empirical studies for open-source software ecosystems and supply chain.
+我是[北京大学](https://www.pku.edu.cn/)软件工程专业的五年级博士研究生，导师是[周明辉教授](https://minghuizhou.github.io/)和[谢冰教授](https://cs.pku.edu.cn/info/1084/1712.htm)，隶属于[开源软件数据分析实验室](https://osslab-pku.github.io/)。在读博之前，我在2019年于北京大学获得计算机科学和经济学双学位。
 
-### **Education**
-- 09/2019 ~ Now, Peking University, PhD Candidate in Software Engineering
-- 09/2017 ~ 07/2019, Peking University, Bachelor of Economy (Dual Major)
-- 09/2015 ~ 07/2019, Peking University, Bachelor of Computer Science (Major)
+我对软件工程领域内广泛的研究话题都很有兴趣，特别是开源软件供应链、软件库挖掘和实证软件工程。
 
-### **News**
+### **最新进展**
+- 2023年12月18日。我们的论文"Characterizing Deep Learning Package Supply Chains in PyPI: Domains, Clusters, and Disengagement"被TOSEM接收。
+- 2023年7月18日。我们的论文"Understanding and Remediating Open-Source License Incompatibilities in the PyPI Ecosystem"被ASE 2023接收。
+- 2023年5月25日。我们的论文"开源软件供应链研究综述"被《软件学报》接收。
+
+### **教育经历**
+- 2019年9月 ~ 至今, 北京大学, 博士，软件工程
+- 2017年9月 ~ 2019年7月, 北京大学, 双学位，经济学
+- 2015年9月 ~ 2019年7月, 北京大学, 本科，计算机科学
+
+### **联系方式**
+
+- 邮箱: gaokai19 AT pku DOT edu DOT cn
+- 地址: 北京市海淀区颐和园路5号北京大学理科1号楼1537（100871）.
 
 {style="text-align: justify;"}

@@ -121,14 +121,14 @@ social:
 highlight_name: true
 ---
 
-I am a 5th-year Ph.D. candidate in the Software Engineering at [School of Software Engineering and Microelectronics](https://ss.pku.edu.cn/) [Peking University](https://www.pku.edu.cn/), advised by [Minghui Zhou](https://minghuizhou.github.io/) and [Bing Xie](https://cs.pku.edu.cn/info/1084/1712.htm) at [Open Source Software Data Analytics Lab](https://osslab-pku.github.io/). Before that, I received my Bachelor's Degree in Computer Science and Economics from Peking University in 2019.
+I am a final-year Ph.D. candidate in the Software Engineering at [Peking University](https://www.pku.edu.cn/), advised by [Minghui Zhou](https://minghuizhou.github.io/) and [Bing Xie](https://cs.pku.edu.cn/info/1084/1712.htm) at [Open Source Software Data Analytics Lab](https://osslab-pku.github.io/). Before that, I received my Bachelor's Degree in Computer Science and Economics from Peking University in 2019.
 
 My research interests lie in software engineering in general, and open source software supply chain, mining software repositories, and empirical software engineering in particular.
 
 ### **News**
 - December 18, 2023. Our paper "Characterizing Deep Learning Package Supply Chains in PyPI: Domains, Clusters, and Disengagement" is accepted by TOSEM.
 - July 18, 2023. Our paper "Understanding and Remediating Open-Source License Incompatibilities in the PyPI Ecosystem" is accepted by ASE 2023.
-- May 25, 2023. Our paper "Survey on Open Source Software Supply Chains from a Holistic Perspective" is accepted by JOS.
+- May 25, 2023. Our paper "Survey on Open Source Software Supply Chains" is accepted by JOS.
 
 ### **Education**
 - 09/2019 ~ Now, Peking University, PhD Candidate in Software Engineering

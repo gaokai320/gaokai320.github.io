@@ -8,14 +8,17 @@ main:
     url: '#about'
     weight: 10
   - name: Publications
-    url: 'publications'
+    url: 'publication'
     weight: 20
   - name: Services
-    url: 'services'
+    url: 'service'
     weight: 30
   - name: Awards
     url: 'award'
     weight: 40
+  - name: Miscellaneous
+    url: 'miscellaneous'
+    weight: 50
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
