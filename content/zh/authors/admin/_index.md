@@ -121,9 +121,9 @@ social:
 highlight_name: true
 ---
 
-我是[北京大学](https://www.pku.edu.cn/)软件工程专业的五年级博士研究生，导师是[周明辉教授](https://minghuizhou.github.io/)和[谢冰教授](https://cs.pku.edu.cn/info/1084/1712.htm)，隶属于[开源软件数据分析实验室](https://osslab-pku.github.io/)。在读博之前，我在2019年于北京大学获得计算机科学和经济学双学位。
+我是[北京大学](https://www.pku.edu.cn/)软件工程专业的五年级博士研究生，导师是[谢冰教授](https://cs.pku.edu.cn/info/1084/1712.htm)和[周明辉教授](https://minghuizhou.github.io/)，隶属于[开源软件数据分析实验室](https://osslab-pku.github.io/)。我于2019年在北京大学获得计算机科学和经济学双学位。
 
-我对软件工程领域内广泛的研究话题都很有兴趣，特别是开源软件供应链、软件库挖掘和实证软件工程。
+我对软件工程领域内广泛的研究话题都很有兴趣，特别是开源软件供应链、软件库挖掘和实证软件工程。我也对智能化软件工程感兴趣，并在积极探索中。
 
 <i class="fa fa-download" aria-hidden="true"></i> 这是我的[中文简历](/uploads/resume_zh.pdf)和[英文简历](/uploads/resume_en.pdf)
 
