@@ -121,9 +121,9 @@ social:
 highlight_name: true
 ---
 
-I am a final-year Ph.D. candidate in Software Engineering at [Peking University](https://www.pku.edu.cn/), advised by [Bing Xie](https://cs.pku.edu.cn/info/1084/1712.htm) and [Minghui Zhou](https://minghuizhou.github.io/) at [Open Source Software Data Analytics Lab](https://osslab-pku.github.io/). Before that, I received my Bachelor's Degree in Computer Science and Economics from Peking University in 2019.
+Kai Gao is a final-year Ph.D. candidate in Software Engineering at [Peking University](https://www.pku.edu.cn/), advised by [Bing Xie](https://cs.pku.edu.cn/info/1084/1712.htm) and [Minghui Zhou](https://minghuizhou.github.io/) at [Open Source Software Data Analytics Lab](https://osslab-pku.github.io/) in [Key Lab of High Confidence Software Technologies (PKU), Ministry of Education](https://hcst.pku.edu.cn/). He received his Bachelor's degree in Computer Science (major) and Economics (dual major) from Peking University in 2019.
 
-My research interests lie in software engineering in general, and open source software supply chain, mining software repositories, and empirical software engineering in particular. I am also interested in and actively exploring intelligent software engineering.
+His research interests span software engineering, with a focus on open source software supply chain, mining software repositories, and empirical software engineering. He is also actively exploring intelligent software engineering and program analysis.
 
 <i class="fa fa-download" aria-hidden="true"></i> Here is my [CV (English Version)](/uploads/resume_en.pdf) and [CV (Chinese Version)](/uploads/resume_zh.pdf)
 

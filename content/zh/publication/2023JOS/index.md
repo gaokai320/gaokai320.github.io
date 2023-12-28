@@ -25,8 +25,8 @@ publishDate: "2023-05-25T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Journal of Software*"
-publication_short: "In *JOS*"
+publication: "In *软件学报*"
+publication_short: ""
 
 abstract: 开源软件已经成为现代社会的一项关键基础设施,支撑着几乎所有领域的软件开发.通过安装依赖、API调用、项目fork、文件拷贝和代码克隆等形式的代码复用,开源软件之间形成了错综复杂的供应(依赖)关系网络,被称为开源软件供应链.一方面,开源软件供应链为软件开发提供了便利,已然成为软件行业的基石.另一方面,上游软件的风险可以沿着开源软件供应链波及众多的下游软件,使开源软件供应链呈现牵一发而动全身的特点.开源软件供应链近年来逐渐成为学术界和工业界的关注焦点.为了帮助增进研究人员对开源软件供应链的认识,从整体性的角度,对开源软件供应链给出定义和研究框架;然后,对国内外的研究工作进行系统文献调研,总结结构与演化、风险传播与管理、依赖管理3个方面的研究现状;最后,展望开源软件供应链的研究挑战和未来研究方向.
 

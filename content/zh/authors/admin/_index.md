@@ -121,9 +121,9 @@ social:
 highlight_name: true
 ---
 
-我是[北京大学](https://www.pku.edu.cn/)软件工程专业的五年级博士研究生，导师是[谢冰教授](https://cs.pku.edu.cn/info/1084/1712.htm)和[周明辉教授](https://minghuizhou.github.io/)，隶属于[开源软件数据分析实验室](https://osslab-pku.github.io/)。我于2019年在北京大学获得计算机科学和经济学双学位。
+高恺是[北京大学](https://www.pku.edu.cn/)软件工程专业的五年级博士研究生，隶属于[高可信软件技术教育部重点实验室](https://hcst.pku.edu.cn/)，导师是[谢冰教授](https://cs.pku.edu.cn/info/1084/1712.htm)和[周明辉教授](https://minghuizhou.github.io/)。他于2019年在北京大学获得计算机科学与技术和经济学学士学位。
 
-我对软件工程领域内广泛的研究话题都很有兴趣，特别是开源软件供应链、软件库挖掘和实证软件工程。我也对智能化软件工程感兴趣，并在积极探索中。
+他的研究专注于软件工程领域，尤其是开源软件供应链、软件仓库挖掘、实证软件工程等。他也在积极探索智能化软件工程和程序分析。
 
 <i class="fa fa-download" aria-hidden="true"></i> 这是我的[中文简历](/uploads/resume_zh.pdf)和[英文简历](/uploads/resume_en.pdf)
 
@@ -135,7 +135,7 @@ highlight_name: true
 ### **教育经历**
 - 2019年9月 ~ 至今, 北京大学, 博士，软件工程
 - 2017年9月 ~ 2019年7月, 北京大学, 双学位，经济学
-- 2015年9月 ~ 2019年7月, 北京大学, 本科，计算机科学
+- 2015年9月 ~ 2019年7月, 北京大学, 本科，计算机科学与技术
 
 ### **联系方式**
 
