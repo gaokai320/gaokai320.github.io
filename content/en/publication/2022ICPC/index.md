@@ -6,7 +6,7 @@ title: 'Demystifying Software Release Note Issues on GitHub'
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - Jianyu Wu
-- Hao here
+- Hao He
 - Wenxin Xiao
 - admin
 - Minghui Zhou
