@@ -128,6 +128,7 @@ highlight_name: true
 <i class="fa fa-download" aria-hidden="true"></i> 这是我的[中文简历](/uploads/resume_zh.pdf)和[英文简历](/uploads/resume_en.pdf)
 
 ### **最新进展**
+- 2024年3月28日。我们的论文"How to Get It Right? A Comprehensive Analysis of Challenges and Strategies for Software Release Notes on GitHub"被EMSE接收。恭喜健宇！
 - 2023年12月18日。我们的论文"Characterizing Deep Learning Package Supply Chains in PyPI: Domains, Clusters, and Disengagement"被TOSEM接收。
 - 2023年7月18日。我们的论文"Understanding and Remediating Open-Source License Incompatibilities in the PyPI Ecosystem"被ASE 2023接收。
 - 2023年5月25日。我们的论文"开源软件供应链研究综述"被《软件学报》接收。
