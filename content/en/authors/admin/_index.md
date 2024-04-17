@@ -128,6 +128,7 @@ His research interests span software engineering, with a focus on open source so
 <i class="fa fa-download" aria-hidden="true"></i> Here is my [CV (English Version)](/uploads/resume_en.pdf) and [CV (Chinese Version)](/uploads/resume_zh.pdf)
 
 ### **News**
+- April 16, 2024. Our paper "PyRadar: Towards Automatically Retrieving and Validating Source Code Repository Information for PyPI Packages" is accepted by FSE 2024.
 - March 28, 2024. Our paper "How to Get It Right? A Comprehensive Analysis of Challenges and Strategies for Software Release Notes on GitHub" is accepted by EMSE. Congratulations to Jianyu!
 - December 18, 2023. Our paper "Characterizing Deep Learning Package Supply Chains in PyPI: Domains, Clusters, and Disengagement" is accepted by TOSEM.
 - July 18, 2023. Our paper "Understanding and Remediating Open-Source License Incompatibilities in the PyPI Ecosystem" is accepted by ASE 2023.
