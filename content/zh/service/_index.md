@@ -7,3 +7,5 @@ title: 学术服务
 
 **期刊审稿人**
 - Journal of Software: Evolution and Process
+- Automated Software Engineering Journal
+- e-Informatica Software Engineering Journal
