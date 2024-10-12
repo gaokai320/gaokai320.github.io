@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kai Gao's Homepage</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kai Gao">
+    <meta name="description" content="Kai Gao's Homepage">
+    <!-- <link href="css/bootstrap.css" rel="stylesheet" media="screen" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen,print" href="css/style.css" />
+    <style>
+        .navbar {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .15);
+        }
+    </style>
+    <script>
+        function add_paper(title, authors, conference, rank, pdf, doi, code, data, slides, award) {
+            list_entry = "<li>"
+            list_entry += "<b>" + title + "</b><br>" + authors + "<br><i>" + conference + "</i>"
+            if (rank != null) {
+                list_entry += "<span style=\"color:#D9D8DC;float: right\">" + rank + "</span>"
+            }
+            list_entry += "<br>"
+
+            if (pdf != null) {
+                list_entry += "<a href=\"" + pdf + "\"><span class=\"badge badge-primary\">PDF</span></a>"
+            }
+
+            if (code != null) {
+                list_entry += " <a href=\"" + code + "\" class=\"badge badge-secondary\">Code</a>"
+            }
+
+            if (data != null) {
+                list_entry += " <a href=\"" + data + "\" class=\"badge badge-info\">Data</a>"
+            }
+
+            if (slides != null) {
+                list_entry += " <a href=\"" + slides + "\" class=\"badge badge-warning\">Slides</a>"
+            }
+
+            if (doi != null) {
+                list_entry += " <a href=\"" + doi + "\" class=\"badge badge-danger\">DOI</a>"
+            }
+
+            if (award != null) {
+                list_entry += " <span class=\"badge badge-success\">" + award + "</span>"
+            }
+            list_entry += "<br></li>"
+
+            document.write(list_entry)
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="navbar navbar-expand-lg navbar-light sticky-top" style="background: white ;">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <center>
+                    <span style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 28px;">Kai Gao</span>
+                </center>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="flase" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="publications.html">Publications <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="awards.html">Awards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="miscellaneous.html">Miscellaneous</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <br>
+                <ol>
+                    <script>
+                        add_paper("PyRadar: Towards Automatically Retrieving and Validating Source Code Repository Information for PyPI Packages",
+                            "<b>Kai Gao</b>, Weiwei Xu, Wenhao Yang, Minghui Zhou",
+                            "The ACM International Conference on the Foundations of Software Engineering <b>(FSE 2024)</b>",
+                            "CCF-A",
+                            "papers/FSE24.pdf",
+                            "https://doi.org/10.1145/3660822",
+                            "https://github.com/gaokai320/PyRadar",
+                            "https://figshare.com/s/e2de8520f3c97b9d73f5",
+                            "slides/FSE24.pdf",
+                            null)
+                    </script>
+                    <br>
+
+                    <script>
+                        add_paper("A Comprehensive Analysis of Challenges and Strategies for Software Release Notes on GitHub",
+                            "Jianyu Wu, Hao He, <b>Kai Gao</b>, Wenxin Xiao, Jingyue Li, Minghui Zhou",
+                            "Empirical Software Engineering <b>(EMSE)</b>",
+                            "CCF-B", "papers/EMSE24.pdf",
+                            "https://doi.org/10.1007/s10664-024-10486-0",
+                            null,
+                            "https://figshare.com/s/b86957f784a8c872c042",)
+                    </script>
+                    <br>
+
+                    <script>
+                        add_paper("Characterizing Deep Learning Package Supply Chains in PyPI: Domains, Clusters, and Disengagement",
+                            "<b>Kai Gao</b>, Runzhi He, Bing Xie, Minghui Zhou",
+                            "ACM Transactions on Software Engineering and Methodology <b>(TOSEM)</b>",
+                            "CCF-A",
+                            "papers/TOSEM23.pdf",
+                            "https://doi.org/10.1145/3640336",
+                            "https://github.com/gaokai320/PyPI-DLSC",
+                            "https://zenodo.org/record/8079662")
+                    </script>
+                    <br>
+
+                    <script>
+                        add_paper("Understanding and Remediating Open-Source License Incompatibilities in the PyPI Ecosystem",
+                            "Weiwei Xu, Hao He, <b>Kai Gao</b>, Minghui Zhou",
+                            "The 38th IEEE/ACM International Conference on Automated Software Engineering <b>(ASE 2023)</b>",
+                            "CCF-A",
+                            "papers/ASE23.pdf",
+                            "https://doi.org/10.1109/ASE56229.2023.00175",
+                            "https://github.com/osslab-pku/SILENCE")
+                    </script>
+                    <br>
+
+                    <script>
+                        add_paper("Survey of Open Source Software Supply Chain (软件供应链研究综述)",
+                            "<b>Kai Gao</b>, Hao He, Bing Xie, Minghui Zhou",
+                            "Journal of Software (软件学报) <b>(JOS)</b>",
+                            "CCF-B",
+                            "papers/JOS23.pdf",
+                            "https://doi.org/10.13328/j.cnki.jos.006975")
+                    </script>
+                    <br>
+
+                    <script>
+                        add_paper("Characterize Software Release Notes of GitHub Projects: Structure, Writing Style, and Content",
+                            "Jianyu Wu, Weiwei Xu, <b>Kai Gao</b>, Jingyue Li, Minghui Zhou",
+                            "The 30th IEEE International Conference on Software Analysis, Evolution and Reengineering <b>(SANER 2023)</b>",
+                            "CCF-B",
+                            "papers/SANER23.pdf",
+                            "https://doi.org/10.1109/SANER56733.2023.00051",
+                            null,
+                            "https://doi.org/10.6084/m9.figshare.21383280")
+                    </script>
+                    <br>
+
+                    <script>
+                        add_paper("On the Variability of Software Engineering Needs for Deep Learning: Stages, Trends, and Application Types",
+                            "<b>Kai Gao</b>, Zhixing Wang, Audris Mockus, Minghui Zhou",
+                            "IEEE Transactions of Software Engineering <b>(TSE)</b>",
+                            "CCF-A",
+                            "papers/TSE22.pdf",
+                            "https://doi.org/10.1145/3524610.3527919",
+                            "https://github.com/gaokai320/SE4DL")
+                    </script>
+                    <br>
+
+                    <script>
+                        add_paper("Demystifying Software Release Note Issues on GitHub",
+                            "Jianyu Wu, Hao He, Wenxin Xiao, <b>Kai Gao</b>, Minghui Zhou",
+                            "The 30th International Conference on Program Comprehension <b>(ICPC 2022)</b>",
+                            "CCF-B",
+                            "papers/ICPC22.pdf",
+                            "https://doi.org/10.1145/3524610.3527919",
+                            null,
+                            "https://doi.org/10.6084/m9.figshare.18777650",
+                            null,
+                            "🏆ACM SIGSOFT Distinguished Paper Award")
+                    </script>
+                    <br>
+
+                    <script>
+                        add_paper("An Exploratory Study of Deep Learning Supply Chain",
+                            "Xin Tan, <b>Kai Gao</b>, Minghui Zhou, Li Zhang",
+                            "The 44th International Conference on Software Engineering <b>(ICSE 2022)</b>",
+                            "CCF-A",
+                            "papers/ICSE22.pdf",
+                            "https://doi.org/10.1145/3510003.3510199",
+                            "https://github.com/SunflowerPKU/ICSE22_SC_Data")
+                    </script>
+                </ol>
+            </div>
+        </div>
+        <br>
+        <hr />
+        <br>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
