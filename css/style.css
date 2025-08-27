@@ -1,54 +1,26 @@
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1000px;
+    }
+}
+
+body, h1, h2, h3, p, ul li, ol li {
+    font-family: Charter, Georgia, Helvetica, Arial, KaiTi, sans-serif;
+}
+
+body, p {
     font-size: 18px;
 }
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1, h2 {
     font-size: 24px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-}
-
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-    font-style: normal;
-    font-variant: normal;
     font-weight: 700;
-}
-
-h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-}
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
 }
 
 ul li {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    font-weight: 400;
 }
 
 ol li {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    font-weight: 400;
 }
