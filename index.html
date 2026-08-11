@@ -18,6 +18,28 @@
         .navbar {
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .15);
         }
+
+        .news-list li,
+        .older-news-toggle {
+            font-size: 18px;
+        }
+
+        .news-list:not(.show-all) li:nth-child(n+6) {
+            display: none;
+        }
+
+        .older-news-toggle {
+            background: none;
+            border: 0;
+            color: #007bff;
+            cursor: pointer;
+            padding: 0;
+            margin-bottom: 1rem;
+        }
+
+        .older-news-toggle:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 
@@ -108,7 +130,7 @@
         </p>
 
         <h2>News</h2>
-        <ul>
+        <ul class="news-list">
             <li><b>[2026.04]</b> Our paper "OmniJinja: A Cross-Language VS Code Extension for Jinja Application
                 Development" is accepted by <a
                     href="https://conf.researchr.org/track/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations">ISSTA
@@ -126,8 +148,8 @@
                 accepted by ASE 2025, congratulations to Guofeng.</li>
             <li><b>[2024.10]</b> Our paper "LiCoEval: Evaluating LLMs on License Compliance in Code Generation" is
                 accepted by ICSE 2025, congratulations to Weiwei.</li>
-            <li><b>[2024.09]</b> I have joined University of Science and Technology Beijing as an Pre-Tenure Associate
-                Professor.</li>
+            <li><b>[2024.09]</b> I have joined University of Science and Technology Beijing as an Pre-Tenure
+                Associate Professor.</li>
             <li><b>[2024.05]</b> I have defended my doctoral thesis!</li>
             <li><b>[2024.04]</b> Our paper "PyRadar: Towards Automatically Retrieving and Validating Source Code
                 Repository Information for PyPI Packages" is accepted by FSE 2024.</li>
@@ -147,6 +169,7 @@
             <li><b>[2021.12]</b> Our paper "An Exploratory Study of Deep Learning Supply Chain" is accepted by ICSE
                 2022, congratulations to Xin.</li>
         </ul>
+        <button class="older-news-toggle" type="button" aria-expanded="false" hidden>Older news</button>
         <hr />
 
     </div>
@@ -159,6 +182,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const visibleNewsCount = 5
+            const newsList = document.querySelector(".news-list")
+            const olderNewsToggle = document.querySelector(".older-news-toggle")
+
+            if (!newsList || !olderNewsToggle || newsList.children.length <= visibleNewsCount) {
+                return
+            }
+
+            olderNewsToggle.hidden = false
+            olderNewsToggle.addEventListener("click", function () {
+                const showAll = newsList.classList.toggle("show-all")
+                olderNewsToggle.setAttribute("aria-expanded", showAll)
+                olderNewsToggle.textContent = showAll ? "Hide older news" : "Older news"
+            })
+        })
+    </script>
 </body>
 
 </html>
