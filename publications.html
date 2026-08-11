@@ -18,7 +18,7 @@
         }
     </style>
     <script>
-        function add_paper(title, authors, conference, rank, pdf, doi, code, data, slides, award) {
+        function add_paper({ title, authors, conference, rank, pdf, doi, code, data, slides, award, tool }) {
             list_entry = "<li>"
             list_entry += "<b>" + title + "</b><br>" + authors + "<br><i>" + conference + "</i>"
             if (rank != null) {
@@ -48,6 +48,10 @@
 
             if (award != null) {
                 list_entry += " <span class=\"badge badge-success\">" + award + "</span>"
+            }
+
+            if (tool != null) {
+                list_entry += " <a href=\"" + tool + "\" class=\"badge badge-dark\">Tool</a>"
             }
             list_entry += "<br></li>"
 
@@ -99,167 +103,185 @@
                 <br>
                 <ol>
                     <script>
-                        add_paper("Analyzing C/C++ Library Migrations at the Package-level: Prevalence, Domains, Targets and Rationales across Seven Package Management Tools",
-                            "Haiqiao Gu, Yiliang Zhao, <b>Kai Gao</b>, Minghui Zhou",
-                            "ACM Transactions on Software Engineering and Methodology <b>(TOSEM)</b>",
-                            "CCF-A",
-                            "papers/TOSEM26.pdf",
-                            null,
-                            "https://github.com/guhaiqiao/C-CPP-Library-Migration",
-                            null,
-                            null,
-                            null)
+                        add_paper({
+                            title: "OmniJinja: A Cross-Language VS Code Extension for Jinja Application Development",
+                            authors: "Yu Sun, <b>Kai Gao</b>, Chang-ai Sun",
+                            conference: "ACM SIGSOFT International Symposium on Software Testing and Analysis <b>(ISSTA 2026 Tool Demostration Track)</b>",
+                            code: "https://github.com/ROCK-SE/OmniJinja",
+                            tool: "https://marketplace.visualstudio.com/items?itemName=rock-se.omnijinja"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("Small Changes, Big Trouble: Demystifying and Parsing License Variants for Incompatibility Detection in the PyPI Ecosystem",
-                            "Weiwei Xu, Hengzhi Ye, <b>Kai Gao</b>, Minghui Zhou",
-                            "The 48th International Conference on Software Engineering <b>(ICSE 2026)</b>",
-                            "CCF-A",
-                            "https://arxiv.org/pdf/2507.14594",
-                            null,
-                            null,
-                            "https://figshare.com/s/4fbaedbeb120d1940f12",
-                            null,
-                            null)
+                        add_paper({
+                            title: "Analyzing C/C++ Library Migrations at the Package-level: Prevalence, Domains, Targets and Rationales across Seven Package Management Tools",
+                            authors: "Haiqiao Gu, Yiliang Zhao, <b>Kai Gao</b>, Minghui Zhou",
+                            conference: "ACM Transactions on Software Engineering and Methodology <b>(TOSEM)</b>",
+                            rank: "CCF-A",
+                            pdf: "papers/TOSEM26.pdf",
+                            code: "https://github.com/guhaiqiao/C-CPP-Library-Migration"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("DIFFFIX: Incrementally Fixing AST Diffs via Context and Type Information",
-                            "Guofeng Zeng, Changai Sun, <b>Kai Gao</b>, Huai Liu",
-                            "The 40th IEEE/ACM International Conference on Automated Software Engineering <b>(ASE 2025)</b>",
-                            "CCF-A",
-                            "papers/ASE25.pdf",
-                            null,
-                            "https://github.com/guofeng99/DiffFix",
-                            null,
-                            null,
-                            null)
+                        add_paper({
+                            title: "Small Changes, Big Trouble: Demystifying and Parsing License Variants for Incompatibility Detection in the PyPI Ecosystem",
+                            authors: "Weiwei Xu, Hengzhi Ye, <b>Kai Gao</b>, Minghui Zhou",
+                            conference: "The 48th International Conference on Software Engineering <b>(ICSE 2026)</b>",
+                            rank: "CCF-A",
+                            pdf: "https://arxiv.org/pdf/2507.14594",
+                            data: "https://figshare.com/s/4fbaedbeb120d1940f12"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("LiCoEval: Evaluating LLMs on License Compliance in Code Generation",
-                            "Weiwei Xu, <b>Kai Gao</b>, Hao He, Minghui Zhou",
-                            "The 47th International Conference on Software Engineering <b>(ICSE 2025)</b>",
-                            "CCF-A",
-                            "papers/ICSE25.pdf",
-                            "https://doi.org/10.1109/ICSE55347.2025.00052",
-                            "https://github.com/osslab-pku/LiCoEval",
-                            "https://figshare.com/s/362cb2bdaed764831166",
-                            "slides/ICSE25.pdf",
-                            null)
+                        add_paper({
+                            title: "DIFFFIX: Incrementally Fixing AST Diffs via Context and Type Information",
+                            authors: "Guofeng Zeng, Changai Sun, <b>Kai Gao</b>, Huai Liu",
+                            conference: "The 40th IEEE/ACM International Conference on Automated Software Engineering <b>(ASE 2025)</b>",
+                            rank: "CCF-A",
+                            pdf: "papers/ASE25.pdf",
+                            code: "https://github.com/guofeng99/DiffFix"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("PyRadar: Towards Automatically Retrieving and Validating Source Code Repository Information for PyPI Packages",
-                            "<b>Kai Gao</b>, Weiwei Xu, Wenhao Yang, Minghui Zhou",
-                            "The ACM International Conference on the Foundations of Software Engineering <b>(FSE 2024)</b>",
-                            "CCF-A",
-                            "papers/FSE24.pdf",
-                            "https://doi.org/10.1145/3660822",
-                            "https://github.com/gaokai320/PyRadar",
-                            "https://figshare.com/s/e2de8520f3c97b9d73f5",
-                            "slides/FSE24.pdf",
-                            null)
+                        add_paper({
+                            title: "LiCoEval: Evaluating LLMs on License Compliance in Code Generation",
+                            authors: "Weiwei Xu, <b>Kai Gao</b>, Hao He, Minghui Zhou",
+                            conference: "The 47th International Conference on Software Engineering <b>(ICSE 2025)</b>",
+                            rank: "CCF-A",
+                            pdf: "papers/ICSE25.pdf",
+                            doi: "https://doi.org/10.1109/ICSE55347.2025.00052",
+                            code: "https://github.com/osslab-pku/LiCoEval",
+                            data: "https://figshare.com/s/362cb2bdaed764831166",
+                            slides: "slides/ICSE25.pdf"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("A Comprehensive Analysis of Challenges and Strategies for Software Release Notes on GitHub",
-                            "Jianyu Wu, Hao He, <b>Kai Gao</b>, Wenxin Xiao, Jingyue Li, Minghui Zhou",
-                            "Empirical Software Engineering <b>(EMSE)</b>",
-                            "CCF-B", "papers/EMSE24.pdf",
-                            "https://doi.org/10.1007/s10664-024-10486-0",
-                            null,
-                            "https://figshare.com/s/b86957f784a8c872c042",)
+                        add_paper({
+                            title: "PyRadar: Towards Automatically Retrieving and Validating Source Code Repository Information for PyPI Packages",
+                            authors: "<b>Kai Gao</b>, Weiwei Xu, Wenhao Yang, Minghui Zhou",
+                            conference: "The ACM International Conference on the Foundations of Software Engineering <b>(FSE 2024)</b>",
+                            rank: "CCF-A",
+                            pdf: "papers/FSE24.pdf",
+                            doi: "https://doi.org/10.1145/3660822",
+                            code: "https://github.com/gaokai320/PyRadar",
+                            data: "https://figshare.com/s/e2de8520f3c97b9d73f5",
+                            slides: "slides/FSE24.pdf"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("Characterizing Deep Learning Package Supply Chains in PyPI: Domains, Clusters, and Disengagement",
-                            "<b>Kai Gao</b>, Runzhi He, Bing Xie, Minghui Zhou",
-                            "ACM Transactions on Software Engineering and Methodology <b>(TOSEM)</b>",
-                            "CCF-A",
-                            "papers/TOSEM23.pdf",
-                            "https://doi.org/10.1145/3640336",
-                            "https://github.com/gaokai320/PyPI-DLSC",
-                            "https://zenodo.org/record/8079662")
+                        add_paper({
+                            title: "A Comprehensive Analysis of Challenges and Strategies for Software Release Notes on GitHub",
+                            authors: "Jianyu Wu, Hao He, <b>Kai Gao</b>, Wenxin Xiao, Jingyue Li, Minghui Zhou",
+                            conference: "Empirical Software Engineering <b>(EMSE)</b>",
+                            rank: "CCF-B",
+                            pdf: "papers/EMSE24.pdf",
+                            doi: "https://doi.org/10.1007/s10664-024-10486-0",
+                            data: "https://figshare.com/s/b86957f784a8c872c042"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("Understanding and Remediating Open-Source License Incompatibilities in the PyPI Ecosystem",
-                            "Weiwei Xu, Hao He, <b>Kai Gao</b>, Minghui Zhou",
-                            "The 38th IEEE/ACM International Conference on Automated Software Engineering <b>(ASE 2023)</b>",
-                            "CCF-A",
-                            "papers/ASE23.pdf",
-                            "https://doi.org/10.1109/ASE56229.2023.00175",
-                            "https://github.com/osslab-pku/SILENCE",
-                            null,
-                            "slides/ASE23.pdf",
-                            null)
+                        add_paper({
+                            title: "Characterizing Deep Learning Package Supply Chains in PyPI: Domains, Clusters, and Disengagement",
+                            authors: "<b>Kai Gao</b>, Runzhi He, Bing Xie, Minghui Zhou",
+                            conference: "ACM Transactions on Software Engineering and Methodology <b>(TOSEM)</b>",
+                            rank: "CCF-A",
+                            pdf: "papers/TOSEM23.pdf",
+                            doi: "https://doi.org/10.1145/3640336",
+                            code: "https://github.com/gaokai320/PyPI-DLSC",
+                            data: "https://zenodo.org/record/8079662"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("Survey of Open Source Software Supply Chain (开源软件供应链研究综述)",
-                            "<b>Kai Gao</b>, Hao He, Bing Xie, Minghui Zhou",
-                            "Journal of Software (软件学报) <b>(JOS)</b>",
-                            "CCF-B",
-                            "papers/JOS23.pdf",
-                            "https://doi.org/10.13328/j.cnki.jos.006975")
+                        add_paper({
+                            title: "Understanding and Remediating Open-Source License Incompatibilities in the PyPI Ecosystem",
+                            authors: "Weiwei Xu, Hao He, <b>Kai Gao</b>, Minghui Zhou",
+                            conference: "The 38th IEEE/ACM International Conference on Automated Software Engineering <b>(ASE 2023)</b>",
+                            rank: "CCF-A",
+                            pdf: "papers/ASE23.pdf",
+                            doi: "https://doi.org/10.1109/ASE56229.2023.00175",
+                            code: "https://github.com/osslab-pku/SILENCE",
+                            slides: "slides/ASE23.pdf"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("Characterize Software Release Notes of GitHub Projects: Structure, Writing Style, and Content",
-                            "Jianyu Wu, Weiwei Xu, <b>Kai Gao</b>, Jingyue Li, Minghui Zhou",
-                            "The 30th IEEE International Conference on Software Analysis, Evolution and Reengineering <b>(SANER 2023)</b>",
-                            "CCF-B",
-                            "papers/SANER23.pdf",
-                            "https://doi.org/10.1109/SANER56733.2023.00051",
-                            null,
-                            "https://doi.org/10.6084/m9.figshare.21383280")
+                        add_paper({
+                            title: "Survey of Open Source Software Supply Chain (开源软件供应链研究综述)",
+                            authors: "<b>Kai Gao</b>, Hao He, Bing Xie, Minghui Zhou",
+                            conference: "Journal of Software (软件学报) <b>(JOS)</b>",
+                            rank: "CCF-B",
+                            pdf: "papers/JOS23.pdf",
+                            doi: "https://doi.org/10.13328/j.cnki.jos.006975"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("On the Variability of Software Engineering Needs for Deep Learning: Stages, Trends, and Application Types",
-                            "<b>Kai Gao</b>, Zhixing Wang, Audris Mockus, Minghui Zhou",
-                            "IEEE Transactions of Software Engineering <b>(TSE)</b>",
-                            "CCF-A",
-                            "papers/TSE22.pdf",
-                            "https://doi.org/10.1109/TSE.2022.3163576",
-                            "https://github.com/gaokai320/SE4DL")
+                        add_paper({
+                            title: "Characterize Software Release Notes of GitHub Projects: Structure, Writing Style, and Content",
+                            authors: "Jianyu Wu, Weiwei Xu, <b>Kai Gao</b>, Jingyue Li, Minghui Zhou",
+                            conference: "The 30th IEEE International Conference on Software Analysis, Evolution and Reengineering <b>(SANER 2023)</b>",
+                            rank: "CCF-B",
+                            pdf: "papers/SANER23.pdf",
+                            doi: "https://doi.org/10.1109/SANER56733.2023.00051",
+                            data: "https://doi.org/10.6084/m9.figshare.21383280"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("Demystifying Software Release Note Issues on GitHub",
-                            "Jianyu Wu, Hao He, Wenxin Xiao, <b>Kai Gao</b>, Minghui Zhou",
-                            "The 30th International Conference on Program Comprehension <b>(ICPC 2022)</b>",
-                            "CCF-B",
-                            "papers/ICPC22.pdf",
-                            "https://doi.org/10.1145/3524610.3527919",
-                            null,
-                            "https://doi.org/10.6084/m9.figshare.18777650",
-                            null,
-                            "🏆ACM SIGSOFT Distinguished Paper Award")
+                        add_paper({
+                            title: "On the Variability of Software Engineering Needs for Deep Learning: Stages, Trends, and Application Types",
+                            authors: "<b>Kai Gao</b>, Zhixing Wang, Audris Mockus, Minghui Zhou",
+                            conference: "IEEE Transactions of Software Engineering <b>(TSE)</b>",
+                            rank: "CCF-A",
+                            pdf: "papers/TSE22.pdf",
+                            doi: "https://doi.org/10.1109/TSE.2022.3163576",
+                            code: "https://github.com/gaokai320/SE4DL"
+                        })
                     </script>
                     <br>
 
                     <script>
-                        add_paper("An Exploratory Study of Deep Learning Supply Chain",
-                            "Xin Tan, <b>Kai Gao</b>, Minghui Zhou, Li Zhang",
-                            "The 44th International Conference on Software Engineering <b>(ICSE 2022)</b>",
-                            "CCF-A",
-                            "papers/ICSE22.pdf",
-                            "https://doi.org/10.1145/3510003.3510199",
-                            "https://github.com/SunflowerPKU/ICSE22_SC_Data")
+                        add_paper({
+                            title: "Demystifying Software Release Note Issues on GitHub",
+                            authors: "Jianyu Wu, Hao He, Wenxin Xiao, <b>Kai Gao</b>, Minghui Zhou",
+                            conference: "The 30th International Conference on Program Comprehension <b>(ICPC 2022)</b>",
+                            rank: "CCF-B",
+                            pdf: "papers/ICPC22.pdf",
+                            doi: "https://doi.org/10.1145/3524610.3527919",
+                            data: "https://doi.org/10.6084/m9.figshare.18777650",
+                            award: "🏆ACM SIGSOFT Distinguished Paper Award"
+                        })
+                    </script>
+                    <br>
+
+                    <script>
+                        add_paper({
+                            title: "An Exploratory Study of Deep Learning Supply Chain",
+                            authors: "Xin Tan, <b>Kai Gao</b>, Minghui Zhou, Li Zhang",
+                            conference: "The 44th International Conference on Software Engineering <b>(ICSE 2022)</b>",
+                            rank: "CCF-A",
+                            pdf: "papers/ICSE22.pdf",
+                            doi: "https://doi.org/10.1145/3510003.3510199",
+                            code: "https://github.com/SunflowerPKU/ICSE22_SC_Data"
+                        })
                     </script>
                 </ol>
             </div>
